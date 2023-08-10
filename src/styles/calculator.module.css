@@ -10,15 +10,16 @@
 
 .result {
   color: #fff;
-  text-align: center;
+  padding: 10px;
+  text-align: end;
   grid-column: 1 / span 4;
-  font: bolder 1.5rem/3.2rem var(--font-family);
+  font: bolder 1.5rem/3rem var(--font-family);
   background-color: #aaa;
 }
 
 .button,
 .zero {
-  height: 50px;
+  height: 80px;
   cursor: pointer;
   font: 1.2rem var(--font-family);
   background-color: #eee;
