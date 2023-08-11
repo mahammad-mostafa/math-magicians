@@ -17,8 +17,7 @@
   background-color: #aaa;
 }
 
-.button,
-.zero {
+.button {
   height: 80px;
   cursor: pointer;
   font: 1.2rem var(--font-family);
@@ -33,7 +32,7 @@
   background-color: rgb(255, 155, 0);
 }
 
-button:hover {
+.button:hover {
   background-color: #ddd;
 }
 
