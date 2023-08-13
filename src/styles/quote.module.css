@@ -1,3 +1,9 @@
+.section {
+  max-width: 600px;
+  padding: 10px;
+  margin: 25px auto;
+}
+
 .error {
   color: #c00;
   text-align: center;
@@ -7,11 +13,6 @@
   font-style: italic;
   text-align: center;
   animation: fading 1s infinite linear;
-}
-
-.section {
-  max-width: 500px;
-  margin: 25px auto;
 }
 
 .quote {
