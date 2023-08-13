@@ -13,8 +13,7 @@ const Button = ({ name, handler }) => {
   return <button type="button" onClick={handler} className={className}>{name}</button>;
 };
 
-Button.propTypes = { name: PropTypes.string.isRequired };
-Button.propTypes = { handler: PropTypes.func.isRequired };
+Button.propTypes = { name: PropTypes.string.isRequired, handler: PropTypes.func.isRequired };
 
 export default class Calculator extends React.Component {
   constructor(props) {
