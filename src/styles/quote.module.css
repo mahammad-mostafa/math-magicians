@@ -1,0 +1,29 @@
+.error {
+  color: #c00;
+  text-align: center;
+}
+
+.loader {
+  font-style: italic;
+  text-align: center;
+  animation: fading 1s infinite linear;
+}
+
+.section {
+  max-width: 500px;
+  margin: 25px auto;
+}
+
+.quote {
+  color: #666;
+  font-style: italic;
+}
+
+.author {
+  font-weight: bolder;
+}
+
+@keyframes fading {
+  from { opacity: 0.1; }
+  to { opacity: 1; }
+}
