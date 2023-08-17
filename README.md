@@ -36,7 +36,7 @@ Also config linters for (`CSS3` / `JavaScript`) in the `.github` folder.
 
 📌 **Tech Stack:**
 - Framework used is `ReactJS`
-- Page strucutre is built with `JSX`
+- Page structure is built with `JSX`
 - Styling is built with `CSS3`
 - Dynamic content is built with `ES6` JavaScript
 - Bundling is done with `WebPack`
