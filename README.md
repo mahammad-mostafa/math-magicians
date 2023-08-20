@@ -29,6 +29,8 @@ Check the below contents for further details about this project.
 
 This project is a simple site with calculator tool built with `ReactJS` framework.
 It applies `Components` and `Hooks` along with `GitFlow` workflow.
+Navigation inside the app is implemented using `React Router`.
+Styling inside the project is done with `CSS Modules`.
 All project dynamic files are contained in `src` directory while static assets are in `public` directory.
 The live build is generated inside the `build` directory.
 Unit testing is applied during this project using `Jest` framework.
@@ -46,7 +48,7 @@ Also config linters for (`CSS3` / `JavaScript`) in the `.github` folder.
 - Single page app with all content loaded dynamically
 - Responsive layout with all screen sizes
 - Calculator interface with realtime results
-- Display live qoutes from an external api
+- Display live quotes from an external api
  
 <p align="right"><a href="#title">back to top</a></p>
 
