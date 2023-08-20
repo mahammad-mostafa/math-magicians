@@ -46,7 +46,7 @@ Also config linters for (`CSS3` / `JavaScript`) in the `.github` folder.
 - Single page app with all content loaded dynamically
 - Responsive layout with all screen sizes
 - Calculator interface with realtime results
-- Display live qoutes from an external api
+- Display live quotes from an external api
  
 <p align="right"><a href="#title">back to top</a></p>
 
