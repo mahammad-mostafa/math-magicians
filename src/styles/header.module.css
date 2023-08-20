@@ -1,0 +1,51 @@
+.header {
+  position: fixed;
+  top: 0;
+  inset-inline: 0;
+  background-color: var(--dark-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.navigation {
+  height: 50px;
+  max-width: 1000px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+}
+
+.list {
+  display: flex;
+  gap: 5px;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.list a {
+  padding: 5px;
+  background-color: var(--background-color);
+  border-radius: 5px;
+}
+
+.list a:hover,
+.list .active {
+  color: var(--background-color);
+  background-color: var(--secondary-color);
+}
+
+@media only screen and (min-width: 768px) {
+  .list {
+    gap: 10px;
+  }
+
+  .list a {
+    padding: 5px 15px;
+  }
+}
