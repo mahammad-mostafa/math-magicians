@@ -24,14 +24,14 @@ const Quote = () => {
 
   if (isLoading) {
     return (
-      <section className={Styles.section}>
-        <h1 className={Styles.loader}>Loading ...</h1>
+      <section>
+        <h2 className={Styles.loader}>Loading ...</h2>
       </section>
     );
   }
   return (
-    <section className={Styles.section}>
-      {hasError ? (<h1 className={Styles.error}>An error occured!</h1>)
+    <section>
+      {hasError ? (<h2 className={Styles.error}>An error occured!</h2>)
         : (
           <>
             <p className={Styles.quote}>{text.quote}</p>

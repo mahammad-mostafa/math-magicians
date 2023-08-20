@@ -32,9 +32,14 @@ export default class Calculator extends React.Component {
   render = () => {
     const { operation: { total, next } } = this.state;
     return (
-      <section className={Styles.section}>
-        <p className={Styles.result}>{next === null || next === undefined ? (total || 0) : next}</p>
-        {this.values.map(this.displayButtons)}
+      <section>
+        <h2 className={Styles.title}>Lets do some math!</h2>
+        <div className={Styles.grid}>
+          <p className={Styles.result}>
+            {next === null || next === undefined ? (total || 0) : next}
+          </p>
+          {this.values.map(this.displayButtons)}
+        </div>
       </section>
     );
   }
