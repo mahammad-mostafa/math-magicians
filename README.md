@@ -36,6 +36,9 @@ The live build is generated inside the `build` directory.
 Unit testing is applied during this project using `Jest` framework.
 Also config linters for (`CSS3` / `JavaScript`) in the `.github` folder.
 
+📌 **Live Demo:**
+- See the project live from [here](https://math-magicians-8iam.onrender.com).
+
 📌 **Tech Stack:**
 - Framework used is `ReactJS`
 - Page structure is built with `JSX`
