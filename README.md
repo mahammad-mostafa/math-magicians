@@ -2,7 +2,7 @@
 
 <!-- TITLE -->
 
-# 🏷️ Math Magicians App
+# 🏷️ Math Magicians
 
 This is the first project of the third module in the **Microverse** program.
 <br/>
